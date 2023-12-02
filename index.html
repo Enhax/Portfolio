@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/f0d3df2a54.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>F</span>ranck.</h1>
+                <!-- <img class="logo" src="assets/images/logo.png"> -->
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Développeur Web</p>
+                <h1>Bonjour, je m'appelle<br><span>Franck</span> de Compiègne.</h1>
+            </div>
+        </div>
+    </div>
+    <!---------- ABOUT ----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">A mon sujet</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eveniet. Dolorum, fugiat
+                        suscipit? Porro ad, distinctio inventore cumque corrupti dignissimos adipisci laudantium unde
+                        iste facilis itaque alias nam voluptatum in perferendis voluptas exercitationem quidem iusto
+                        numquam a! Delectus exercitationem ex expedita sapiente modi fugit perferendis. Ipsam voluptate
+                        ullam corporis itaque!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Compétences</p>
+                        <p class="tab-links" onclick="opentab('experience')">Expérience</p>
+                        <p class="tab-links" onclick="opentab('education')">Formation</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - En cours</span><br>Formation Développement Web</li>
+                            <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>Formation Chef de cabine</li>
+                            <li><span>2016 - 2017</span><br>Formation PNC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2023</span><br>Formation Développement Web</li>
+                            <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>Formation Chef de cabine</li>
+                            <li><span>2016 - 2017</span><br>Formation PNC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------- SERVICES ---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Mes services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Développement Web</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, laborum iusto quia hic, neque reprehenderit, laboriosam velit aspernatur unde quibusdam blanditiis repellat temporibus earum qui.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, laborum iusto quia hic, neque reprehenderit, laboriosam velit aspernatur unde quibusdam blanditiis repellat temporibus earum qui.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, laborum iusto quia hic, neque reprehenderit, laboriosam velit aspernatur unde quibusdam blanditiis repellat temporibus earum qui.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------- PORTFOLIO ---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/images/work-2.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/images/work-3.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/images/work-1.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Voir plus</a>
+    </div>
+</div>
+<!---------- CONTACT ---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i> 0125456895</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="assets/images/my-cv.pdf" class="btn btn2" download>Télécharger mon CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="name" placeholder="Votre Nom" required>
+                    <input type="email" name="email" placeholder="Votre email" required>
+                    <textarea name="message"rows="6" placeholder="Votre message"></textarea>
+                    <button type="submit" class="btn btn2">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Franck. Tous droits réservés.</p>
+    </div>
+</div>
+
+</body>
+
+</html>
