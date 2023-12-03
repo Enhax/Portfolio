@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* PINK #ff004f / #b54769 */
+/* PINK-RED #ff004f / #b54769 */
 /* VOLTAIC BLUE #52deff /  */
 
 :root{
@@ -180,7 +180,7 @@ nav ul li a:hover::after {
 }
 
 .icons{
-    width:35px;
+    width:30px;
     margin-bottom: 20px;
     transition: transform 0.5s;
 }
