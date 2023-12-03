@@ -24,7 +24,7 @@ function closeMenu() {
 
 document.addEventListener('click', (e) => {
     if (e.target != document.getElementById('open') && e.target != document.getElementById('sideMenu')) {
-        sideMenu.style.right = '-200px';
+        sideMenu.style.right = '-180px';
     }
 })
 
