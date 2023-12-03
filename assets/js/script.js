@@ -23,7 +23,6 @@ function closeMenu() {
 }
 
 document.addEventListener('click', (e) => {
-    console.log(e.target);
     if (e.target != document.getElementById('open') && e.target != document.getElementById('sideMenu')) {
         sideMenu.style.right = '-200px';
     }

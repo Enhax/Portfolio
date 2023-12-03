@@ -437,7 +437,7 @@ nav .fas {
 
     #header {
         background-image: url(../images/backgroundfullmobile.png);
-        background-position: center;
+        background-position: -55px;
         background-size: cover;
         background-repeat: no-repeat;
     }
