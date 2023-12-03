@@ -4,10 +4,10 @@ const sideMenu = document.getElementById('sideMenu');
 const msg = document.getElementById('msg');
 
 function opentab(tabname) {
-    for (tablink of tablinks) {
+    for (let tablink of tablinks) {
         tablink.classList.remove('active-link');
     }
-    for (tabcontent of tabcontents) {
+    for (let tabcontent of tabcontents) {
         tabcontent.classList.remove('active-tab');
     }
     event.currentTarget.classList.add('active-link');
