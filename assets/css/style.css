@@ -9,7 +9,7 @@ html{
 }
 
 /* PINK-RED #ff004f / #b54769 */
-/* VOLTAIC BLUE #52deff /  */
+/* VOLTAIC BLUE #7DF9FF /  */
 
 :root{
     --mainTheme: #ff004f;
@@ -17,7 +17,7 @@ html{
 }
 
 body {
-    background: #080808;
+    background: #000;
     color: #fff;
 }
 
@@ -25,8 +25,8 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(../images/backgroundfull.png);
-    background-size: cover;
-    background-position: top;
+    background-size: contain;
+    background-position: right;
     background-repeat: no-repeat;
 }
 
@@ -39,10 +39,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-nav .logo {
-    width: 160px;
 }
 
 nav span {
@@ -63,7 +59,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 600;
     position: relative;
 }
@@ -89,12 +85,13 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 {
-    font-size: 60px;
+    font-size: 43px;
     margin-top: 20px;
 }
 
 .header-text h1 span {
     color: var(--mainTheme);
+    font-size:65px;
 }
 
 /* ---------- ABOUT ---------- */
@@ -217,7 +214,7 @@ nav ul li a:hover::after {
 .services-list div {
     background-color: #262626;
     padding: 40px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
@@ -437,7 +434,7 @@ nav .fas {
 
     #header {
         background-image: url(../images/backgroundfullmobile.png);
-        background-position: -55px;
+        background-position: left;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -450,8 +447,11 @@ nav .fas {
 
     .header-text h1 {
         margin-top:65px;
-        font-size: 22px;
+        font-size: 19px;
         text-shadow: 0 0 2px black;
+    }
+    .header-text h1 span {
+        font-size:29px;
     }
 
     .sub-title {
